@@ -1,0 +1,10 @@
+{
+  "name": "project-fixer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "parse": "bun run scripts/mongo-state-parser.ts parse",
+    "fix": "bun run scripts/mongo-state-parser.ts fix",
+    "analyze:dripLines": "bun run scripts/analyze-drip-lines.ts"
+  }
+}
