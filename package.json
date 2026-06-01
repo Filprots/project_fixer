@@ -5,6 +5,7 @@
   "scripts": {
     "parse": "bun run scripts/mongo-state-parser.ts parse",
     "fix": "bun run scripts/mongo-state-parser.ts fix",
-    "analyze:dripLines": "bun run scripts/analyze-drip-lines.ts"
+    "analyze:dripLines": "bun run scripts/analyze-drip-lines.ts",
+    "check:parsed": "bun run scripts/check-parsed-state.ts"
   }
 }
